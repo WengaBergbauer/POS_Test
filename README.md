@@ -38,7 +38,7 @@ Core.Design
 Core.Sqlite
 Core.Tools
 
-2. Application DB Context
+3. Application DB Context
 ```c#
 public class ApplicationDbContext : DbContext
 {
@@ -63,7 +63,7 @@ Hier werden die Models Speise und Zutat erstellt
 In der Program.cs den ConnectionString festlegen 
 
 4. Connected Services
-Neuen Service SQLite-Datenbank
+   Neuen Service SQLite-Datenbank
 
-5. Datenbank aufsetzen
-Wie immer add-migration und update-database
+6. Datenbank aufsetzen
+   Wie immer add-migration und update-database
